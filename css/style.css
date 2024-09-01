@@ -1,0 +1,192 @@
+.titulo-bienvenida {
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+
+.instrucciones {
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+
+.ingresofac {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.numerofac {
+    margin: 5px;
+}
+
+.nombreprov {
+    margin: 5px;
+}
+
+.montofac {
+    margin: 5px;
+}
+
+.botones {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    
+
+}
+
+.fincarga {
+    margin: 5px;
+    border-radius: 5px;
+    background-color: #d978f7;
+}
+
+.aceptarfac {
+    margin: 5px;
+    border-radius: 5px;
+    background-color: #d978f7;
+}
+
+.tablageneral {
+    margin: 30px;
+}
+
+.ultimosbotones {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+
+}
+
+.pagartodo {
+    margin: 5px;
+    border-radius: 5px;
+    background-color: #d978f7;
+}
+
+.limpiartodo {
+    margin: 5px;
+    border-radius: 5px;
+    background-color: #7a62ed;
+}
+
+.divfinal {
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.divhisto {
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.divfinalizar {
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container-comenzar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+    font-size: 45px;
+}
+
+.boton-comenzar {
+border-radius: 5px;
+border-width: 10px;
+
+}
+
+.seleccionfinfc {
+    border-radius: 5px;
+    background-color: #64de64;
+}
+
+
+.loader {
+    width: 120px;
+    height: 22px;
+    border-radius: 20px;
+    color: #514b82;
+    border: 2px solid;
+    position: relative;
+  }
+  .loader::before {
+    content: "";
+    position: absolute;
+    margin: 2px;
+    inset: 0 100% 0 0;
+    border-radius: inherit;
+    background: currentColor;
+    animation: l6 2s infinite;
+  }
+  @keyframes l6 {
+      100% {inset:0}
+  }
+
+  .validacionusuario {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.boton-usuario {
+    margin-top: 10px;
+    border-radius: 5px;
+    background-color: #7a62ed;
+}
+
+.boton-usuario:hover {
+    background-color: #d978f7;
+
+}
+
+.verpago{
+    margin: 10px;
+    border-radius: 5px;
+    background-color: #d978f7;
+}
+
+.verpago:hover {
+    background-color: #7a62ed;
+}
+
+.verfac{
+    border-radius: 5px;
+    background-color: #d978f7;
+    
+}
+
+.verfac:hover {
+    background-color: #7a62ed;
+}
+
+.seleccionfc {
+    border-radius: 5px;
+    background-color: #d978f7;
+}
+
+.seleccionfc:hover {
+    background-color: #7a62ed;
+}
+
+.historico {
+    border-radius: 5px;
+}
